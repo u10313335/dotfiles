@@ -71,7 +71,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'fisadev/FixedTaskList.vim'
 
 " Async autocompletion
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'Shougo/deoplete.nvim', { 'tag': '4.1', 'do': ':UpdateRemotePlugins' }
 " Completion from other opened files
 Plug 'Shougo/context_filetype.vim'
 " Python autocompletion
@@ -358,3 +358,6 @@ let g:airline#extensions#whitespace#enabled = 0
 "let g:airline_symbols.branch = '⭠'
 "let g:airline_symbols.readonly = '⭤'
 "let g:airline_symbols.linenr = '⭡'
+
+" Load local config --------------------
+source ~/.vimrc

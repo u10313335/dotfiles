@@ -41,7 +41,7 @@ sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/to
 * Run the following script
 
 ```
-run makesymlinks.sh
+~/dotfiles/makesymlinks.sh
 ```
 
 ## On macOS
@@ -69,5 +69,5 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 * Run the following script
 
 ```
-run makesymlinks.sh
+~/dotfiles/makesymlinks.sh
 ```

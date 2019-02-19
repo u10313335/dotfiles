@@ -31,5 +31,6 @@ for file in $files; do
 done
 
 # for neovim
+mkdir -p ~/.config/nvim
 mv ~/.config/nvim/init.vim ~/dotfiles_old/
 ln -s $dir/init.vim ~/.config/nvim/init.vim

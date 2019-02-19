@@ -49,6 +49,3 @@ set mouse=a		" Enable mouse usage (all modes)
 " Highlight tabs
 highlight Tabs ctermbg=233
 call matchadd('Tabs', '\t')
-
-" Plugins
-Plug 'Shougo/deoplete.nvim', { 'tag': '4.1', 'do': ':UpdateRemotePlugins' }
