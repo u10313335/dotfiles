@@ -29,3 +29,7 @@ for file in $files; do
     echo "Creating symlink to $file in home directory."
     ln -s $dir/$file ~/.$file
 done
+
+# for neovim
+mv ~/.config/nvim/init.vim ~/dotfiles_old/
+ln -s $dir/init.vim ~/.config/nvim/init.vim

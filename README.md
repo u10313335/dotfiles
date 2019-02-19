@@ -18,10 +18,18 @@ git clone https://github.com/u10313335/dotfiles.git ~
 sudo apt-get remove vim-tiny
 ```
 
-* Install `zsh`, `git`, `tmux`, and `vim-full`
+* Install `zsh`, `git`, `tmux`, and `neovim`
 
 ```
-sudo apt-get install zsh git-core tmux vim
+sudo apt-get install zsh git-core tmux neovim
+```
+
+* Install the required dependencies
+
+```
+sudo apt-get install python-dev python-pip python3-dev python3-pip curl vim exuberant-ctags git ack-grep
+sudo pip install neovim pep8 flake8 pyflakes pylint isort
+sudo pip3 install neovim pep8 flake8 pyflakes pylint isort
 ```
 
 * Install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) via `wget`

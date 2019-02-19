@@ -15,7 +15,7 @@ alias mv="mv -i"
 alias ..="cd .."
 alias ...="cd ../.."
 alias py="python"
-alias vi="vim"
+alias vi="nvim"
 alias c="clear"
 alias r="Rscript"
 

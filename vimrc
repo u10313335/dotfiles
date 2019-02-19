@@ -44,17 +44,11 @@ endif
 "set incsearch		" Incremental search
 "set autowrite		" Automatically save before commands like :next and :make
 "set hidden             " Hide buffers when they are abandoned
-"set mouse=a		" Enable mouse usage (all modes)
-set ai
-set sw=3
-set sts=3
-set ru
-set mouse=a
-" Source a global configuration file if available
-if filereadable("/etc/vim/vimrc.local")
-  source /etc/vim/vimrc.local
-endif
+set mouse=a		" Enable mouse usage (all modes)
 
-filetype plugin indent on
-autocmd FileType python,perl	map ,r :s/^/# /<CR>
-autocmd FileType python,perl    map ,t :s/^# \=//<CR>
+" Highlight tabs
+highlight Tabs ctermbg=233
+call matchadd('Tabs', '\t')
+
+" Plugins
+Plug 'Shougo/deoplete.nvim', { 'tag': '4.1', 'do': ':UpdateRemotePlugins' }
