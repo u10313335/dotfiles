@@ -157,3 +157,5 @@
 
 [pager]
         status = true
+[pull]
+	ff = only
